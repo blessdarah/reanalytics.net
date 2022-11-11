@@ -1,7 +1,12 @@
 <section class="pt-20 pb-32 bg-white">
     <div class="px-20 mx-auto max-w-7xl">
-        <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">What we offer<br></h2>
-        <p class="mb-16 text-lg text-gray-500">Here is our list of our powerful and award-winning features.</p>
+        <div class="flex flex-col md:flex-row items-start justify-between w-full mb-8 lg:mb-2">
+            <div>
+                <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">What we offer<br></h2>
+                <p class="mb-16 text-lg text-gray-500">Here is our list of our powerful and award-winning features.</p>
+            </div>
+            <a href="{{route('services')}}" class="bg-gray-900 text-white rounded-lg px-5 py-3 border-2 border-black hover:bg-white hover:text-gray-800 transition duration-200 ease-in-out">Book service</a>
+        </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-16 lg:gap-x-24 gap-y-20">
             <div class="">
     <div class="flex items-center justify-center w-12 h-12 mb-4 text-red-600 bg-red-100 rounded-full" data-primary="red-600" data-rounded="rounded-full">
